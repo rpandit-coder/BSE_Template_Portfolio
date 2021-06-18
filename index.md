@@ -7,7 +7,7 @@ This will serve as a brief description of your project. Limit this to three sent
 
 ![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
  
- <details open>
+ <details>
 <summary>Bill of Materials</summary>
 <br>
  Servos
@@ -34,7 +34,7 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 # First Milestone
 My first milestone was getting the keypad and RGB LED up and running with the Arduino! So I first tinkered around to make create a code that worked with the keypad. Each number or letter button on the 4 x 4 keypad was expressed by the input of two different pins on the Arduino. I used an array for the rows, using 4 pins on the Arduino, and another array to express the 4 columns of the keypad. Using arrays, in this project was especially useful for making a specific code to punch into the keypad. By creating an array with my desired code, and 
 
-<details open>
+<details>
 <summary>First Milestone Code: With the Keypad and RGB LED</summary>
 <br>
 
@@ -42,8 +42,6 @@ My first milestone was getting the keypad and RGB LED up and running with the Ar
 #include <Keypad.h>
 
 #include <Password.h>
-
-
 
 const byte ROWS = 4;
 const byte COLS = 4;
@@ -79,6 +77,7 @@ void setup() {
   pinMode(bluePin, OUTPUT);
   //int myPins[5] = {'1', '5', '9', '0'};
 }
+ 
 void ReadCode() {                 //Getting code sequence
   i = 0;                    //All variables set to 0
   a = 0;
@@ -104,12 +103,12 @@ void loop() {
     Serial.println(customKey);
   }
 
-  //keypressed = Mykeypad.getKey();               //Constantly waiting for a key to be pressed
+               //Constantly waiting for a key to be pressed
 
   if (customKey == '*') {                    // * to turn on LED
     Serial.println("TestingCode");
 
-    //ReadCode();
+    
     bool correctcodeentered = true;
     for (int index = 0; index < 4; index++) {
       if (code [index] != lastpressedkeys[index]) {
