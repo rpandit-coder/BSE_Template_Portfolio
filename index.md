@@ -1,9 +1,9 @@
 ﻿# Fingerprint ID and Keypad Lockbox
 This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
 
-| **Rhea P** | **Trinity School** | **Neuroscience/** | **Rising Junior** |
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Firstname Lastname | Current Highschool | Electrical Engineering | Incoming Senior
+| Rhea P| Trinity School | Neuroscience/Bioengineering | Rising Junior
 
 ![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
  
