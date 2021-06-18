@@ -38,10 +38,9 @@ My first milestone was getting the keypad and RGB LED up and running with the Ar
 <summary>First Milestone Code: With the Keypad and RGB LED</summary>
 <br>
 
-//
-#include <Keypad.h>
+#include <Keypad.h> 
 
-#include <Password.h>
+#include <Password.h> 
 
 const byte ROWS = 4;
 const byte COLS = 4;
@@ -50,8 +49,7 @@ char hexaKeys[ROWS][COLS] = {
   {'1', '2', '3', 'A'},
   {'4', '5', '6', 'B'},
   {'7', '8', '9', 'C'},
-  {'*', '0', '#', 'D'}
-};
+  {'*', '0', '#', 'D'}};
 
 char keypressed;                 //Where the keys are stored it changes very often
 char code[4] = {'1', '5', '9', '0'};
@@ -102,8 +100,6 @@ void loop() {
   if (customKey) {
     Serial.println(customKey);
   }
-
-               //Constantly waiting for a key to be pressed
 
   if (customKey == '*') {                    // * to turn on LED
     Serial.println("TestingCode");
