@@ -34,6 +34,10 @@ My second milestone is bringing together all the important elements in my projec
 
 # First Milestone
 My first milestone was getting the keypad and RGB LED up and running with the Arduino! So I first tinkered around to make create a code that worked with the keypad. Each number or letter button on the 4 x 4 keypad was expressed by the input of two different pins on the Arduino. I used an array for the rows, using 4 pins on the Arduino, and another array to express the 4 columns of the keypad. Using arrays, in this project was especially useful for making a specific code to punch into the keypad. I created an array with my desired code, and then an array with "null" numbers represent the last 4 numbers pressed into the keypad. If the last 4 numbers pressed onto the keypad are the same as the correct code, then the RGB LED light turns green, and the serial monitor prints "CORRECT". And if the wrong code is pressed, then the LED turns "red", and the serial monitor reads "INCORRECT". 
+         
+[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1625232636/video_to_markdown/images/youtube--18KGtm8ud0g-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/18KGtm8ud0g "First Milestone"){:target="_blank" rel="noopener"}
+
+
 <details>
 <summary>First Milestone Code: With the Keypad and RGB LED</summary>
 <br>
@@ -147,6 +151,4 @@ void loop() {
 
 </details>
 
-     
-     
-[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1625232636/video_to_markdown/images/youtube--18KGtm8ud0g-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/18KGtm8ud0g "First Milestone"){:target="_blank" rel="noopener"}
+         
