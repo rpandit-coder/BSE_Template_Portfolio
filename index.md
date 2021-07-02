@@ -41,7 +41,7 @@ My first milestone was getting the keypad and RGB LED up and running with the Ar
 <details>
 <summary>First Milestone Code: With the Keypad and RGB LED</summary>
 <br>
-
+```
 #include <Keypad.h> 
 
 #include <Password.h> 
@@ -148,7 +148,7 @@ void loop() {
 
 
 //once we hit customKey then it checks each recorded pin //
-
+```
 </details>
 
          
