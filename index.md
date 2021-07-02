@@ -144,4 +144,4 @@ void loop() {
 
 </details>
 
-[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1625232636/video_to_markdown/images/youtube--18KGtm8ud0g-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/18KGtm8ud0g "First Milestone")(https://youtu.be/18KGtm8ud0g "First Milestone"){:target="_blank" rel="noopener"}
+[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1625232636/video_to_markdown/images/youtube--18KGtm8ud0g-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/18KGtm8ud0g "First Milestone")
