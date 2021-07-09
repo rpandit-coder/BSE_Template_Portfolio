@@ -22,7 +22,7 @@ Power source
 </details>
 
 # Final Milestone
-My final milestone is ...
+So I've reached my final milestone of my project, and all the components are integrated into the safe box! So for this step I had to plan how to make a fairly secure locking mechanism. I also had to cut into the wooden box to put the keypad, fingerprint sensor, and indicator LED light on the outside of the box, while keeping the inner hardware and locking mechanism on the inside. Then
 
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
 
