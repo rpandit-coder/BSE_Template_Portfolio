@@ -22,10 +22,9 @@ Power source
 </details>
 
 # Final Milestone
-So I've reached my final milestone of my project, and all the components are integrated into the safe box! So for this step I had to plan how to make a fairly secure locking mechanism. I also had to cut into the wooden box to put the keypad, fingerprint sensor, and indicator LED light on the outside of the box, while keeping the inner hardware and locking mechanism on the inside. Then
+So I've reached my final milestone of my project, and all the components are integrated into the safe box! So for this step I had to plan how to make a fairly secure locking mechanism. I also had to cut into the wooden box to put the keypad, fingerprint sensor, and indicator LED light on the outside of the box, while keeping the inner hardware and locking mechanism on the inside. Then 
 
-[![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
-
+[![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube.com/watch?v=7BdnqoN-6gM).jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone")
 # Second Milestone
 My second milestone is bringing together all the important elements in my project! Here, I was able to connect and wire up the keypad and the fingerprint sensor to the Arduino Uno Microcontroller. when I input the correct keycode into the keypad, and then press the "star" key, then the fingerprint sensor turns on, ready to read the correct print! Then with this, I put my fingerprint, and the RGB LED turns green if the correct print is placed, and red if the wrong print is taken. It's a two-factor authentication system! As another "output" of the correct keypad and fingerprint sensor, then there's a Servo motors that is coded to turn its attachment 90 degrees. I've fashioned an upside down L-shaped attachment to the motor's axle, so as the code runs the attachment. The "locking mechnanism" works by the turnign the Servo attachment on the bottom part ofthe box to hook onto a bit on the lid of the box.
 
